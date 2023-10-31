@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(222, 26%, 31%);
+}
+
+section {
+    width: 30%;
+    height: 80%;
+    background-color: hsl(222, 26%, 31%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+aside {
+    width: 100%;
+}
+
+input {
+    width: 96%;
+    height: 70px;
+    border-radius: 5px;
+    border: 0px solid transparent;
+    background-color: hsl(224, 36%, 15%);
+    color: white;
+    font-size: larger;
+    padding: 5px 20px;
+}
+
+.one {
+    background-color: hsl(223, 31%, 20%);
+    width: 96%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.one div {
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    color: hsl(222, 26%, 31%);
+    cursor: pointer;
+}
+
+.one .def {
+    background-color: hsl(222, 26%, 31%);
+    font-size: medium;
+    color: white;
+}
+
+.two {
+    width: 96%;
+    background-color: hsl(223, 31%, 20%);
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: -5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.two div {
+    width: 190px;
+    height: 50px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.two .deff {
+    background-color: hsl(222, 26%, 31%);
+    font-size: medium;
+    color: white;
+}
